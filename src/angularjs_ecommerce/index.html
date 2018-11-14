@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html  ng-app="myApp">
+<!-- add reference from cdn for angular js  -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+
+<title>AngularJS Ecommerce App</title>
+
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Amiri|Cookie|EB+Garamond|Hind+Vadodara|Lobster|Nanum+Myeongjo|PT+Serif|Pattaya|Philosopher" rel="stylesheet">
+
+    <!-- css: need to remove if not required -->
+    <link rel="stylesheet" href="node_modules/ng-dialog/css/ngDialog.css" />
+    <link rel="stylesheet" href="node_modules/ng-dialog/css/ngDialog-theme-default.css" />
+    <link rel="stylesheet" href="node_modules/chosen-js/chosen.css" />
+    <link rel="stylesheet" href="node_modules/angular-ui-notification/dist/angular-ui-notification.css" />
+    <link rel="stylesheet" href="node_modules/fullcalendar/dist/fullcalendar.css" />
+    <link rel="stylesheet" href="node_modules/angular-ui-switch/angular-ui-switch.css" />
+    <link rel="stylesheet" href="node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" />
+    <link rel="stylesheet" href="node_modules/jquery.scrollbar/jquery.scrollbar.css" />
+    <link rel="stylesheet" href="node_modules/nvd3/build/nv.d3.css" />
+    <link rel="stylesheet" href="node_modules/angular-flash-alert/dist/angular-flash.css" />
+    <link rel="stylesheet" href="node_modules/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="node_modules/textAngular/dist/textAngular.css" />
+    <link rel="stylesheet" href="node_modules/angular-loading-bar/build/loading-bar.css" />
+    <!-- end -->
+    <!-- Bootstrap Core CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/main.min.css" rel="stylesheet">
+
+    
+<body ng-app="myApp">
+<ui-view></ui-view>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.7.5/angular-sanitize.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0/angular-ui-router.js"></script> 
+<script src="./app/main.js"></script>
+<script src="./app/product/product.ctrl.js"></script>
+<script src="./app/product/product.service.js"></script>
+
+</body>
+</html>

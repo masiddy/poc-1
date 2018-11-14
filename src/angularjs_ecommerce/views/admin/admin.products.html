@@ -1,0 +1,32 @@
+<div class="row" ng-init="vm.getProducts()">
+    <div class="col-lg-12">
+        <table class="table table-striped">
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>Model</th>
+                <th>Brand</th>
+                <th>Color</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Action</th>
+            </tr>
+            <tr ng-repeat="product in vm.products">
+                <td>{{$index + 1}}</td>
+                <td><img ng-show="product.metadata.images.image_1" ng-src="{{product.metadata.images.image_1.url}}" width="50"></td>
+                <td><a ui-sref="main.product.profile({slug: product.slug})">{{product.title}}</a></td>
+                <td><a ui-sref="admin.products({key: 'brand', value: product.metadata.brand})">{{product.metadata.brand}}</a></td>
+                <td><a ui-sref="admin.products({key: 'color', value: product.metadata.color})">{{product.metadata.color}}</a></td>
+                <td><a ui-sref="admin.products({key: 'category', value: product.metadata.category})">{{product.metadata.category}}</a></td>
+                <td><i class="fa fa-dollar"></i> {{product.metadata.price}}</td>
+                <td>
+                    <div class="btn-group">
+                        <a ui-sref="admin.products.edit({slug: product.slug})" class="btn btn-default btn-sm"><i class="fa fa-pencil"></i></a>
+                        <button class="btn btn-default btn-sm" ng-click="vm.removeProduct(product.slug)"><i class="fa fa-remove"></i></button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <a ui-sref="admin.products.add" class="btn btn-success"><i class="fa fa-plus-circle"></i> Add product</a>
+    </div>
+</div>

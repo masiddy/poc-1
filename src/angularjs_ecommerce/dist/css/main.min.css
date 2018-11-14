@@ -1,0 +1,289 @@
+.form-signin {
+    max-width: 330px;
+    margin: 15% auto
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    box-sizing: border-box
+}
+
+.slide-image,
+.thumbnail img {
+    width: 100%
+}
+
+#shop {
+    padding-top: 70px
+}
+
+.carousel-holder {
+    margin-bottom: 30px
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden
+}
+
+.caption-btn {
+    margin: 10px
+}
+
+.caption h4 {
+    white-space: nowrap
+}
+
+.ratings {
+    color: #d17581
+}
+
+.thumbnail {
+    padding: 0
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333
+}
+
+footer {
+    margin: 50px 0
+}
+
+.cart-toggle {
+    margin: 5px
+}
+
+.thank-you i {
+    color: #4cae4c
+}
+
+.thank-you h1 {
+    font-weight: 700
+}
+
+input.ng-invalid {
+    border: 1px solid #a94442
+}
+
+input.ng-invalid-required {
+    border: 1px solid #ccc
+}
+
+.sidebar-nav li a,
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none
+}
+
+#wrapper {
+    padding-left: 0;
+    transition: all .5s ease
+}
+
+#wrapper.toggled {
+    padding-left: 250px
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    transition: all .5s ease
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px
+}
+
+.sidebar-nav li a {
+    display: block;
+    color: #999
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, .2)
+}
+
+.sidebar-nav>.sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px
+}
+
+.sidebar-nav>.sidebar-brand a {
+    color: #999
+}
+
+.sidebar-nav>.sidebar-brand a:hover {
+    color: #fff;
+    background: 0 0
+}
+
+.navbar-default .navbar-brand {
+    font-family: Lobster;
+    font-size: 35px;
+    color: #94f0f0;
+    text-shadow:
+		-1px -1px 0 rgb(124, 124, 124),
+		1px -1px 0 rgb(155, 154, 154),
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    }
+    
+.lead {
+    font-family: Lobster;
+}
+
+.navbar {
+    background-color: white;
+}
+
+body {
+    background-color: rgb(247, 242, 242);
+}
+
+.btn-info {
+    background-color: #baf7f7;
+    color: rgb(19, 19, 19);
+    border-color: #b2f7f7;
+    margin: 7px 0px 2px 2px;
+}
+
+.h4,
+h4 {
+    font-family: Lobster;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 4px 9px 4px 9px;
+    color: rgb(80, 80, 80);
+}
+
+.navbar-default .navbar-center>li>a {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Lobster;
+}
+
+b,
+strong {
+    color: rgb(97, 94, 92);
+    font-family: Lobster;
+}
+
+.btn-info:hover {
+    color: black;
+    background-color: #a3f5f5;
+    border-color: #a3f5f5;
+
+}
+
+a {
+    color: rgb(32, 31, 31);
+}
+
+#shop {
+    padding-left: 20px;
+}
+
+
+
+@media(max-width:768px) {
+    #wrapper {
+        padding-left: 0
+    }
+
+    #wrapper.toggled {
+        padding-left: 250px
+    }
+
+    #sidebar-wrapper {
+        width: 0
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 20px;
+    }
+
+    .navbar-default .navbar-center > li > a {
+        font-size: 13px;
+    }
+}
+
+.sidebar-nav .active {
+    background: #1b1b1b
+}
+
+.product-header {
+    background: rgba(255, 255, 255, .9);
+    transition: .1s;
+    font-size: 1.3em
+}
+
+.product-header .page-header {
+    transition: .1s;
+    margin-top: 15px;
+    font-size: 1em !important
+}
+
+

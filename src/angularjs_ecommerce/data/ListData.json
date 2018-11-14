@@ -1,0 +1,276 @@
+{
+    "objects": [{
+        "_id": "5bd021c58cc1547c8ac5e47f",
+        "bucket": "5bd0218a2bd114024f647e75",
+        "slug": "rhine",
+        "title": "Description 1",
+        "content": "<p><span style='color: rgb(103, 103, 103); font-family: Lobster; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>",
+        "metafields": [{
+            "value": "MODERN SPORT SERIES",
+            "key": "category",
+            "title": "Category",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "MVMT",
+            "key": "brand",
+            "title": "Brand",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 42,
+            "key": "case_size",
+            "title": "Case Size",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 11,
+            "key": "case_thickness",
+            "title": "Case Thickness",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 20,
+            "key": "strap_width",
+            "title": "Strap Width",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "Battery powered 3 hand Miyota quartz",
+            "key": "movement",
+            "title": "Movement",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "Hardened mineral crystal",
+            "key": "glass",
+            "title": "Glass",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "10 ATM Waterproof",
+            "key": "water_resistance",
+            "title": "Water Resistance",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "Silver",
+            "key": "color",
+            "title": "Color",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "Silver stainless steel link",
+            "key": "strap_material",
+            "title": "Strap Material",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 0,
+            "key": "price",
+            "title": "Price",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "",
+            "key": "images",
+            "title": "Images",
+            "type": "parent",
+            "children": [{
+                "value": "b8b59c60-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Front_6f233828-10a0-4eb3-9864-432974a0546d_1024x1024.jpg",
+                "key": "image_1",
+                "title": "Image_1",
+                "type": "file",
+                "children": null,
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/b8b59c60-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Front_6f233828-10a0-4eb3-9864-432974a0546d_1024x1024.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/b8b59c60-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Front_6f233828-10a0-4eb3-9864-432974a0546d_1024x1024.jpg"
+            }, {
+                "value": "d91d0d30-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Back_312_1024x1024.jpg",
+                "key": "image_2",
+                "title": "Image_2",
+                "type": "file",
+                "children": null,
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/d91d0d30-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Back_312_1024x1024.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/d91d0d30-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Back_312_1024x1024.jpg"
+            }, {
+                "value": "ccb368a0-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Side_2affa4bb-b61f-4d13-afbb-5fd018f573bd_1024x1024.jpg",
+                "key": "image_3",
+                "title": "Image_3",
+                "type": "file",
+                "children": null,
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/ccb368a0-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Side_2affa4bb-b61f-4d13-afbb-5fd018f573bd_1024x1024.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/ccb368a0-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Side_2affa4bb-b61f-4d13-afbb-5fd018f573bd_1024x1024.jpg"
+            }]
+        }],
+        "type_slug": "products",
+        "created": "2017-06-06T12:50:09.597Z",
+        "created_at": "2017-06-06T12:50:09.598Z",
+        "modified_at": "2017-06-06T17:22:44.154Z",
+        "status": "published",
+        "published_at": "2018-10-24T07:39:49.611Z",
+        "metadata": {
+            "category": "MODERN SPORT SERIES",
+            "brand": "MVMT",
+            "case_size": 42,
+            "case_thickness": 11,
+            "strap_width": 20,
+            "movement": "Battery powered 3 hand Miyota quartz",
+            "glass": "Hardened mineral crystal",
+            "water_resistance": "10 ATM Waterproof",
+            "color": "Silver",
+            "strap_material": "Silver stainless steel link",
+            "price": 0,
+            "images": {
+                "image_1": {
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/b8b59c60-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Front_6f233828-10a0-4eb3-9864-432974a0546d_1024x1024.jpg",
+                    "imgix_url": "https://cosmic-s3.imgix.net/b8b59c60-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Front_6f233828-10a0-4eb3-9864-432974a0546d_1024x1024.jpg"
+                },
+                "image_2": {
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/d91d0d30-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Back_312_1024x1024.jpg",
+                    "imgix_url": "https://cosmic-s3.imgix.net/d91d0d30-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Back_312_1024x1024.jpg"
+                },
+                "image_3": {
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/ccb368a0-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Side_2affa4bb-b61f-4d13-afbb-5fd018f573bd_1024x1024.jpg",
+                    "imgix_url": "https://cosmic-s3.imgix.net/ccb368a0-4566-11e7-9508-3bfbccd1c1b1-ModernSport04.Side_2affa4bb-b61f-4d13-afbb-5fd018f573bd_1024x1024.jpg"
+                }
+            }
+        }
+    }, {
+        "_id": "5bd021c58cc1547c8ac5e481",
+        "bucket": "5bd0218a2bd114024f647e75",
+        "slug": "rosewood",
+        "title": "Description 2",
+        "content": "<p><span style='color: rgb(103, 103, 103); font-family: \"Gotham Book\"; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>",
+        "metafields": [{
+            "value": "VOYAGER SERIES",
+            "key": "category",
+            "title": "Category",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "MVMT",
+            "key": "brand",
+            "title": "Brand",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 42,
+            "key": "case_size",
+            "title": "Case Size",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 11,
+            "key": "case_thickness",
+            "title": "Case Thickness",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 21,
+            "key": "strap_width",
+            "title": "Strap Width",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "Battery powered 5 hand Miyota dual time movement",
+            "key": "movement",
+            "title": "Movement",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "Hardened mineral crystal",
+            "key": "glass",
+            "title": "Glass",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "10 ATM Waterproof",
+            "key": "water_resistance",
+            "title": "Water Resistance",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "White",
+            "key": "color",
+            "title": "Color",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "Natural tan leather NATO",
+            "key": "strap_material",
+            "title": "Strap Material",
+            "type": "text",
+            "children": null
+        }, {
+            "value": 0,
+            "key": "price",
+            "title": "Price",
+            "type": "text",
+            "children": null
+        }, {
+            "value": "",
+            "key": "images",
+            "title": "Images",
+            "type": "parent",
+            "children": [{
+                "value": "540d7700-49e0-11e7-97d8-338eebe90a47-Voyager07.Front_55a5df62-2230-44cb-88c4-abda652be139_1024x1024.jpg",
+                "key": "image_1",
+                "title": "Image_1",
+                "type": "file",
+                "children": null,
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/540d7700-49e0-11e7-97d8-338eebe90a47-Voyager07.Front_55a5df62-2230-44cb-88c4-abda652be139_1024x1024.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/540d7700-49e0-11e7-97d8-338eebe90a47-Voyager07.Front_55a5df62-2230-44cb-88c4-abda652be139_1024x1024.jpg"
+            }, {
+                "value": "54271980-49e0-11e7-97d8-338eebe90a47-Voyager07_1024x1024.jpg",
+                "key": "image_2",
+                "title": "Image_2",
+                "type": "file",
+                "children": null,
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/54271980-49e0-11e7-97d8-338eebe90a47-Voyager07_1024x1024.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/54271980-49e0-11e7-97d8-338eebe90a47-Voyager07_1024x1024.jpg"
+            }, {
+                "value": "55527a20-49e0-11e7-8bb0-499d9a69ae1a-Voyager07.Back_1024x1024.jpg",
+                "key": "image_3",
+                "title": "Image_3",
+                "type": "file",
+                "children": null,
+                "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/55527a20-49e0-11e7-8bb0-499d9a69ae1a-Voyager07.Back_1024x1024.jpg",
+                "imgix_url": "https://cosmic-s3.imgix.net/55527a20-49e0-11e7-8bb0-499d9a69ae1a-Voyager07.Back_1024x1024.jpg"
+            }]
+        }],
+        "type_slug": "products",
+        "created": "2017-06-06T12:50:09.598Z",
+        "created_at": "2017-06-06T12:50:09.598Z",
+        "modified_at": "2018-10-24T07:39:49.613Z",
+        "status": null,
+        "metadata": {
+            "category": "VOYAGER SERIES",
+            "brand": "MVMT",
+            "case_size": 42,
+            "case_thickness": 11,
+            "strap_width": 21,
+            "movement": "Battery powered 5 hand Miyota dual time movement",
+            "glass": "Hardened mineral crystal",
+            "water_resistance": "10 ATM Waterproof",
+            "color": "White",
+            "strap_material": "Natural tan leather NATO",
+            "price": 0,
+            "images": {
+                "image_1": {
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/540d7700-49e0-11e7-97d8-338eebe90a47-Voyager07.Front_55a5df62-2230-44cb-88c4-abda652be139_1024x1024.jpg",
+                    "imgix_url": "https://cosmic-s3.imgix.net/540d7700-49e0-11e7-97d8-338eebe90a47-Voyager07.Front_55a5df62-2230-44cb-88c4-abda652be139_1024x1024.jpg"
+                },
+                "image_2": {
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/54271980-49e0-11e7-97d8-338eebe90a47-Voyager07_1024x1024.jpg",
+                    "imgix_url": "https://cosmic-s3.imgix.net/54271980-49e0-11e7-97d8-338eebe90a47-Voyager07_1024x1024.jpg"
+                },
+                "image_3": {
+                    "url": "https://s3-us-west-2.amazonaws.com/cosmicjs/55527a20-49e0-11e7-8bb0-499d9a69ae1a-Voyager07.Back_1024x1024.jpg",
+                    "imgix_url": "https://cosmic-s3.imgix.net/55527a20-49e0-11e7-8bb0-499d9a69ae1a-Voyager07.Back_1024x1024.jpg"
+                }
+            }
+        }
+    }],
+    "total": 2,
+    "limit": 100
+}

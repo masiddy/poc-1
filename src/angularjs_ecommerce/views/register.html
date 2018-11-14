@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-offset-4 col-lg-4">
+            
+            <br>
+
+            <div class="panel panel-default">
+                <form name="auth.loginForm">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <h3 class="text-center"><a ui-sref="layout.home"><b>Create a New Account</b></a></h3>
+                            <br>
+                            <input type="text"
+                                    class="form-control"
+                                    placeholder="First Name"
+                                    required=""
+                                    autofocus="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text"
+                                    class="form-control"
+                                    placeholder="Last Name"
+                                    required=""
+                                    autofocus="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Email"
+                                   required=""
+                                   autofocus=""
+                                   ng-model="auth.credentials.email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password"
+                                   class="form-control"
+                                   placeholder="Password"
+                                   required=""
+                                   ng-model="auth.credentials.password">
+                        </div>
+                        <div class="form-group">
+                            <input type="text"
+                                    class="form-control"
+                                    placeholder="Confirm Password"
+                                    required=""
+                                    autofocus="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text"
+                                    class="form-control"
+                                    placeholder="Contact No"
+                                    required=""
+                                    autofocus="">
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-lg btn-info btn-block"
+                                ng-class="{'disabled': auth.loginForm.$invalid}"
+                                ng-click="auth.login(auth.credentials)">Register</button>
+                    </div>
+                </form>
+            </div>
+
+            <flash-message></flash-message>
+        </div>
+    </div>
+</div>

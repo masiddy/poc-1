@@ -1,0 +1,113 @@
+<!-- Navigation -->
+<!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        Brand and toggle get grouped for better mobile display
+        <div class="navbar-header">
+            <a ui-sref="layout.cart" class="btn navbar-toggle btn-primary cart-toggle" ng-init="cart.getCart()">
+                <i class="fa fa-shopping-cart"></i> <span class="badge">{{cart.products.length}}</span>
+            </a>
+            <a ui-sref="logout" title="logout" class="btn navbar-toggle btn-primary cart-toggle" >
+                <i class="fa fa-sign-out"></i> <span class="badge">{{cart.products.length}}</span>
+            </a>
+            <a ui-sref="login" title="login" class="btn navbar-toggle btn-primary cart-toggle" >
+                <i class="fa fa-user-o"></i> <span class="badge">{{cart.products.length}}</span>
+            </a>
+            
+            <a class="navbar-brand" ui-sref="layout.home">Wookies</a>
+        </div>
+        Collect the nav links, forms, and other content for toggling
+        
+        <a ui-sref="layout.cart" class="btn btn-info navbar-btn navbar-right" ng-init="cart.getCart()">
+            <i class="fa fa-shopping-bag"></i> <span class="badge">{{cart.products.length}}</span>
+        </a>
+               
+        <a ui-sref="logout" title="logout" class="btn btn-info navbar-btn navbar-right">
+            <i class="fa fa-sign-out"></i> <span class="badge">{{cart.products.length}}</span>
+        </a>
+              
+        <a ui-sref="login" title="login" class="btn btn-info navbar-btn navbar-right">
+            <i class="fa fa-user-circle"></i> <span class="badge">{{cart.products.length}}</span>
+        </a>
+        </div>
+    </div>
+</nav> -->
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+            <!-- <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a ui-sref="layout.cart" class="btn btn-info navbar-btn navbar-right" ng-init="cart.getCart()">
+                          <i class="fa fa-shopping-bag"></i> <span class="badge">{{cart.products.length}}</span>
+                      </a>
+                             
+                      <a ui-sref="logout" title="logout" class="btn btn-info navbar-btn navbar-right">
+                          <i class="fa fa-sign-out"></i> <span class="badge">{{cart.products.length}}</span>
+                      </a>
+                            
+                      <a ui-sref="login" title="login" class="btn btn-info navbar-btn navbar-right">
+                          <i class="fa fa-user-circle"></i> <span class="badge">{{cart.products.length}}</span>
+                      </a>
+                    </li>
+                  </ul> -->
+                  <ul class="nav navbar-nav navbar-center">
+                    <li><a ui-sref="layout.men">Men</a></li>
+                    <li><a ui-sref="layout.women">Women</a></li>
+                    <li><a ui-sref="layout.kids">Kids</a></li>
+                  </ul>
+        <a class="navbar-brand" href="#">Wookies</a>
+        
+          
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-center">
+          <li><a ui-sref="layout.men">Men</a></li>
+          <li><a ui-sref="layout.women">Women</a></li>
+          <li><a ui-sref="layout.kids">Kids</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a ui-sref="layout.cart" title="Shopping Bag" class="btn btn-info navbar-btn navbar-right" ng-init="cart.getCart()">
+                <i class="fa fa-shopping-bag"></i> <span class="badge">{{cart.products.length}}</span>
+            </a>
+                   
+            <!-- put a valid ng-if statement to check if a user is logged in -->
+            <a ng-if="isAuthentication == 'true'" ui-sref="logout" title="Logout" class="btn btn-info navbar-btn navbar-right">
+                <i class="fa fa-sign-out"></i> <span class="badge">{{cart.products.length}}</span>
+            </a>
+                  
+            <a ng-if="isAuthentication == 'false'" ui-sref="login" title="Login" class="btn btn-info navbar-btn navbar-right">
+                <i class="fa fa-user-circle"></i> <span class="badge">{{cart.products.length}}</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Page Content -->
+<div id="shop" class="fluid-container" >
+    <ui-view></ui-view>
+</div>
+
+
+<div class="container">
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <i class="fa fa-cc-amex fa-2x"></i></i>
+                <i class="fa fa-cc-mastercard fa-2x"></i></i>
+                <i class="fa fa-cc-discover fa-2x"></i></i>
+                <i class="fa fa-cc-visa fa-2x"></i></i>
+                <i class="fa fa-paypal fa-2x"></i></i>
+        </div>
+    </footer>
+
+</div>

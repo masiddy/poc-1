@@ -1,0 +1,46 @@
+<!-- defined init method call-->
+<div class="row" ng-init="vm.getProduct()">
+        <div class="col-md-3">
+            <p class="lead">Size</p>
+            <div class="list-group">
+                <a class="list-group-item" ui-sref="main.product" ui-sref-opts="{inherit: false}">All</a>
+                <a class="list-group-item" ng-class="{'active': brand === vm.params.brand}" ng-repeat="brand in vm.brands" ui-sref="main.product({key: 'brand', value: brand})">{{brand}} <i ng-if="brand === vm.params.value" class="fa fa-check"></i></a>
+            </div>
+            <p class="lead">Colors</p>
+            <div class="list-group">
+                <a class="list-group-item" ui-sref="main.product" ui-sref-opts="{inherit: false}">All</a>
+                <a class="list-group-item" ng-class="{'active': color === vm.params.color}" ng-repeat="color in vm.colors" ui-sref="main.product({key: 'color', value: color})">{{color}} <i ng-if="color === vm.params.value" class="fa fa-check"></i></a>
+            </div>
+            <p class="lead">Style</p>
+            <div class="list-group">
+                <a class="list-group-item" ui-sref="main.product" ui-sref-opts="{inherit: false}">All</a>
+                <a class="list-group-item" ng-class="{'active': category === vm.params.category}" ng-repeat="category in vm.categories" ui-sref="main.product({key: 'category', value: category})">{{category}} <i ng-if="category === vm.params.value" class="fa fa-check"></i></a>
+            </div>
+        </div>
+    
+        <div class="col-md-9">
+            <div class="row">
+                <!-- defined look over list data and showing each product which are in list array-->
+                <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="product in vm.ListData">
+                    <div class="thumbnail" > 
+                        <!-- <a ui-sref="main.product.profile({slug: product.slug})"><img ng-src="{{product.metadata.images.image_1.url}}" alt=""></a> -->
+                        <div class="caption">
+                            <h4 class="pull-right">${{product.metadata.price}}</h4>
+                            <h4><a ui-sref="main.product.profile({slug: product.slug})">{{product.title}}</a></h4>
+                            <p ng-bind-html="product.content"></p>
+                        </div>
+                        <div class="caption-btn">
+                            <button ng-if="!cart.hasInCart(product._id)" class="btn btn-info btn-block btn-sm" ng-click="cart.addToCart(product)"><i class="fa fa-heart"></i>  Add to Cart</button>
+                            <button ng-show="cart.hasInCart(product._id) && !showRemove"
+                                    ng-mouseenter="showRemove = true"
+                                    class="btn btn-success btn-block btn-sm"><i class="fa fa-check-circle"></i>  Added</button>
+                            <button ng-show="cart.hasInCart(product._id) && showRemove"
+                                    ng-mouseleave="showRemove = false"
+                                    class="btn btn-danger btn-block btn-sm" ng-click="cart.removeFromCart(product._id)"><i class="fa fa-minus-circle"></i> Remove</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- /.container -->

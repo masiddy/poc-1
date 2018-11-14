@@ -1,0 +1,9 @@
+<div class="row" ng-repeat="product in ngDialogData.metadata.products">
+    <div class="col-sm-4">
+        <div class="thumbnail">
+            <img ng-src="{{'https://cosmicjs.com/uploads/' + product.metafields[11].children[0].value}}" width="50">
+        </div>
+    </div>
+    <div class="col-sm-4 text-center"><a ui-sref="main.product.profile({slug: product.slug})">{{product.title}}</a></div>
+    <div class="col-sm-4 text-right"><i class="fa fa-dollar"></i> <b>{{product.metadata.price}}</b></div>
+</div>
